@@ -1,0 +1,23 @@
+.navbar-brand img {width: 60px;height: 30px; 
+                   padding:0cm 0cm 0.3cm 0cm;}
+
+.container-fluid {font-family: 'Anton', sans-serif;
+                  background: transparent;
+                  background-color: white;
+                  font-weight: bold;}
+
+.jumbotron h1 {font-family: 'Lobster', cursive;
+                text-align: center;
+               color: rgb(7%, 49%, 3%);}
+
+.jumbotron p {font-family: 'Ranga', cursive;
+               text-align: center;
+               color: rgb(60%, 36%, 13%);}
+
+.jumbotron {background-image: url(image/banner.jpg);
+            background-repeat:no-repeat;
+            background-position:center;
+            background-origin:content-box;
+            background-color: rgb(92%, 98%, 73%);}
+
+.jumbotron btn btn-primary btn-lg {background-color: rgb(54%, 47%, 47%);}

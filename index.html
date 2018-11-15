@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<title>Landingpagebopang</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="forme.css">
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>LandingpageBo</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="psha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Ranga" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=".jumbotron">
+      	<img src="image/logo.jpg" alt="logo">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Produit</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nous <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Equipe</a></li>
+            <li><a href="#">Siège</a></li>
+            <li><a href="#">Contactez-nous</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Le nom de votre produit">
+        </div>
+        <button type="submit" class="btn btn-default">Rechercher</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">S'enregistrer</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-circle"></i>
+           <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Votre panier</a></li>
+            <li><a href="#">Vos commandes</a></li>
+            <li><a href="#">Vos informations</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Paramètres</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="jumbotron">
+  <h1>Bienvenue chez Thé vert Chine</h1>
+  <p>Plusieur Choix de votre thé</p>
+  <p>Livraison Rapide</p>
+  <p>Une tasse de bon thé tous les matins</p>
+  <p>
+  	<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Achetez maintenant</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Nom</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Nom">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox">Souscrire à recevoir les nouvelles de nos produits
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Envoyez-moi les infos des produits</button>
+    </div>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+  </p>
+     </div>
 
 </body>
 </html>
