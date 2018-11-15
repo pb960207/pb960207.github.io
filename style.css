@@ -41,4 +41,10 @@
                margin-left: auto;
                margin-right: auto;}
 
-.siege h1 {text-align: center;}            
+.siege h1 {text-align: center;}
+.siege p{ text-align: center;
+       	  line-height: 700%; 
+                  }
+footer {padding-top:0cm;
+        background-color: rgb(92%, 98%, 73%)}
+footer p {text-align: center;}
