@@ -21,3 +21,24 @@
             background-color: rgb(92%, 98%, 73%);}
 
 .jumbotron btn btn-primary btn-lg {background-color: rgb(54%, 47%, 47%);}
+
+.features h1 {font-family: 'Lobster', cursive;
+	          text-align: center;
+              background-color: rgb(92%, 98%, 73%);
+              }
+
+.producttea img {width: 300px; height: 300px;}
+
+.caption h3{font-family: 'Lobster', cursive}
+
+.introduction{font-size: 70%;
+              text-align: center;}
+
+.producttea {background-color:rgb(92%, 98%, 73%) }
+
+
+.center-block {display: block;
+               margin-left: auto;
+               margin-right: auto;}
+
+.siege h1 {text-align: center;}            
